@@ -2,6 +2,7 @@ from sklearn.ensemble import AdaBoostClassifier
 import xgboost as xgb
 import time	
 
+#This code is derived from https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
 
 class BoostLearner:
 

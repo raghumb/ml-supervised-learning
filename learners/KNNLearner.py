@@ -1,7 +1,7 @@
 from sklearn.neighbors import KNeighborsClassifier
 import time	
 
-
+#This code is derived from https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
 class KNNLearner:
 
     def __init__(self, 

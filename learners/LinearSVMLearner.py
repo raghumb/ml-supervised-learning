@@ -1,6 +1,7 @@
 from sklearn.svm import LinearSVC
 import time	
 
+#This code is derived from
 class LinearSVMLearner:
 
     def __init__(self, 

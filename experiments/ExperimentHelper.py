@@ -17,6 +17,8 @@ from sklearn.metrics import f1_score
 from sklearn.metrics import roc_curve
 from plotter import plot_roc_curve
 
+#This code is derived from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#
+
 class ExperimentHelper:
     def __init__(self, splitter, learner, prefix = None, title_pre = None):        
         self.splitter = splitter   

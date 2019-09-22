@@ -16,8 +16,7 @@ class BoostingExp:
         # Perform learning curve
         #self.expHelper.learning_curve_exp()
         self.model_complexity_exp()
-        self.model_complexity_exp2()
-        self.learning_curve_iter2()
+        self.model_complexity_exp_2()
         if(self.splitter.reader.dataset == 'Bank'):
             print('bank')            
             self.learning_curve_iter2_bank()

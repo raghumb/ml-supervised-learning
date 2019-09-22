@@ -6,6 +6,7 @@ from sklearn.tree._tree import TREE_LEAF
 from sklearn.tree import export_graphviz
 import time	
 
+#This code is derived from https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
 class DTLearner:
 
     def __init__(self, 
@@ -84,6 +85,7 @@ class DTLearner:
         
         return y_pred
 
+# This code is derived from https://stackoverflow.com/questions/49428469/pruning-decision-trees
     def prune_index(self, inner_tree, index, threshold):
         if inner_tree.value[index].min() < threshold:
             # turn node into a leaf by "unlinking" its children
